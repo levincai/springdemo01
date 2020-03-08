@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
          
-          <!-- lookup parent from re   pository -->
+          <!-- lookup parent from re   po  sitory -->
     <groupId>com.loevin</groupId>
     <artifactId>springdemo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
