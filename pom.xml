@@ -11,7 +11,7 @@
 
     </parent>
          
-          <!-- lookup parent fr  om re   po  sitory -->
+          <!-- lookup parent fr  om re   p  o  sitory -->
     <groupId>com.loevin</groupId>
     <artifactId>springdemo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
