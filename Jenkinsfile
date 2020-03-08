@@ -9,6 +9,6 @@ node {
    
    def mvnHome = tool 'Maven3.6.1'
    // Run the maven build
-     sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
+     bat "${mvnHome}/bin/mvn -B -DskipTests clean package"
    step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
 }
