@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
          
-          <!-- lookup parent from repository -->
+          <!-- lookup parent from re   pository -->
     <groupId>com.loevin</groupId>
     <artifactId>springdemo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
