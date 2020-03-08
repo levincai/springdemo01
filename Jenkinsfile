@@ -7,6 +7,6 @@ node {
    // Mark the code build 'stage'....
    stage 'Build'
    // Run the maven build
-    sh 'mvn -B -DskipTests clean package'
+    sh '${Maven3.6.1}\bin\mvn -B -DskipTests clean package'
    step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
 }
