@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="shaDigest" class="com.loevin.springdemo01.factorybean.MessageDigestFactoryBean">
+        <property name="algorithmName" value="SHA1"/>
+    </bean>
+
+    <bean id="defaultDigest" class="com.loevin.springdemo01.factorybean.MessageDigestFactoryBean">
+    </bean>
+
+    <bean id="digester" class="com.loevin.springdemo01.factorybean.MessageDigester">
+        <property name="digest1" ref="shaDigest"/>
+        <property name="digest2" ref="defaultDigest"/>
+    </bean>
+</beans>
