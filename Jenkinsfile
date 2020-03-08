@@ -1,7 +1,6 @@
 node {
   jdk = tool name: 'jdk8'
   env.JAVA_HOME = "${jdk}"
-  bat "${jdk}/bin/java -version"
    // Mark the code checkout 'stage'....
    stage 'Checkout'
    
