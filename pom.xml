@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookuVRRp p  ar   ent    from repository -->
     </parent>
          
-          <!-- lookup parent from re   pository -->
+          <!-- lookup parent f    rom re   pository -->
     <groupId>com.loevin</groupId>
     <artifactId>springdemo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
